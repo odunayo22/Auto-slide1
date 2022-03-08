@@ -1,0 +1,210 @@
+z-index: 997;
+
+.container{
+    display:flex;
+  }
+
+
+  z-index: 997;
+
+  <Slide key={index}></Slide>
+
+  <Sliding images={[image1, image2, image3, image4, image5]}/>
+
+
+  const Sliding = ({ images = [], ...props }) => {
+    return(
+        
+    );
+};
+
+  { ...props}>
+  {images.map((image, index) => (<slide  className="slider" key={index}></slide>
+  ))}
+
+  onClick={nextSlide}
+
+  width: 1000px;
+      height:600px;
+      border-radius: 10px;
+
+
+      user-select: none;
+
+      width: 100%;
+      height:35rem;
+      border-radius: 10px;
+      
+
+      <Card image ={`https://picsum.photos/800/353`}id="three" key ="three" />,
+
+
+
+      const styles ={
+        card: {
+            margin: 0,
+            padding:0,
+           
+            width:'inherit',
+            height: 'inherit',
+            position: 'absolute',
+            top:'50%',
+            left:'50%',
+            transform: 'translate(-50%, -50%)',
+            
+           
+        },
+
+      card_img: {
+        maxWidth: '100%',
+        maxHeight: '100%',
+        position: 'relative',
+        top:'50%',
+        left:'50%',
+        
+        transform: 'translate(-50%, -30%)',
+       
+    }
+
+    const styles ={
+      view_port:{
+          margin: 0,
+          padding:0,
+          width:'500px',
+          height: '300px',
+          position: 'absolute',
+          top:'50%',
+          left:'50%',
+          transform: 'translate(-50%, -50%)',
+         
+  //      overflow: 'hidden',
+      
+      },
+      images_container: {
+          margin: 0,
+          padding:0,
+          width:'inherit',
+          height: 'inherit',
+          position: 'absolute',
+          top:'50%',
+          left:'50%',
+          transform: 'translate(-50%, -50%)',
+          
+        
+  
+      }
+  }
+  
+  
+  export default Deck;
+
+
+  render(){
+    return(
+        <Fragment>
+            <div >
+            <FaArrowCircleLeft className='left-arrow'  />
+      <FaArrowCircleRight className='right-arrow'  />
+            </div>
+            < div ref={ref_id => this.view_port = ref_id}style={styles.view_port}>
+                <div ref={ref_id => this.images = ref_id} style={styles.images_container}>
+                    {this.state.cards}
+                </div>
+            </div>
+        </Fragment>
+        
+    );
+}
+}
+
+const styles ={
+    view_port:{
+        margin: 0,
+        padding:0,
+        width:'500px',
+        height: '300px',
+        position: 'absolute',
+        top:'50%',
+        left:'50%',
+        transform: 'translate(-50%, -50%)',
+      // overflow: 'hidden',
+     
+      
+    
+    },
+    images_container: {
+        margin: 0,
+        padding:0,
+        width:'inherit',
+        height: 'inherit',
+        position: 'absolute',
+        top:'50%',
+        left:'50%',
+        transform: 'translate(-50%, -50%)',
+        float:'left',
+      
+        
+      
+
+    }
+}
+
+
+export default Deck;
+
+this.button_prev.style.width =`${(this.new_width / 2)}`
+
+
+<div ref={ref_id => this.nav_button_container = ref_id} className="nav_button_container">
+<FaArrowCircleLeft ref={ref_id => this.button_prev} className='left-arrow'  />
+
+.nav_button_container{
+    margin-left: 35%;
+    padding:0;
+    width:'100vw';
+    position: 'absolute';
+    top:50%;
+    left:50%;
+    display:flex;
+   
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    transform: translate(-50%, -30%);  
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  nav_button{
+    position: relative;
+    top: 40%;
+    left: 32px;
+    font-size: 3rem;
+    color: red; 
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  <Fragment>
+  <div className="nav_button_container">
+      <img src="./img/nobg-left.png" className="nav_button" alt ="" id="prev" />
+      <img src ="./img/nobg-right.png" className="nav_button" alt="" id="next"/>
+  </div>
+  < div ref={ref_id => this.view_port = ref_id} className= "view_port" >
+      <div ref={ref_id => this.images = ref_id} className="images_container">
+          {this.state.cards}
+      </div>
+  </div>
+</Fragment>
+
+this.view_port.className.width =`{this.new_width}px`;
+this.left-arrow.className.width = `{(this.new_width / 2) * 0.30}px`;
+this.right-arrow.className.width = `{(this.new_width / 2) * 0.30}px`;
+
+
+<div className='timing'>
+            <Timer start={Date.now()} />
+            </div>
+
+      
